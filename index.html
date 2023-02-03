@@ -1,31 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!-- code is officially written by Code With Pankaj -->
+<!-- Google Search : Code With Pankaj  -->
+<!-- YouTube Search : Code With Pankaj  -->
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project</title>
+    <title>Landing Page</title>
     <!-- Bootstrap CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
     <!-- Bootstrap Icons  -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <!-- local attached files 👇 -->
     <link rel="stylesheet" href="style.css">
-    <script src="./script.js"></script>
+    <!-- font awesome css link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
 </head>
 
 <body>
 
     <div class="container row mw-100">
-        <div class="col-6 mt-4 " style="width: 44%;">
+        <div class="col-6 mt-4 w-44">
             <!-- slider 👇 -->
-            <div id="carouselExampleControls" class="carousel slide sliderprop" data-interval="false">
+            <div id="carouselExampleControls" class="carousel slide slider-prop" data-interval="false">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="./Images/1.jpg" class="d-block w-100 slideImgSize" alt="first_image">
@@ -46,19 +48,19 @@
                         <img src="./Images/66.jpg" class="d-block w-100 slideImgSize" alt="sixth_image">
                     </div>
                 </div>
-                <button class="carousel-control-prev leftadjust" type="button" data-bs-target="#carouselExampleControls"
-                    data-bs-slide="prev">
+                <button class="carousel-control-prev left-adjust" type="button"
+                    data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                     <span class="position-relative">
                         <img src="./Images/leftbg.png" alt="left_arrow_background" class="position-absolute">
-                        <img src="./Images/left.png" alt="left_arrow_background" class="position-absolute leftarrow">
+                        <img src="./Images/left.png" alt="left_arrow_background" class="position-absolute left-arrow">
                     </span>
                     <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next rightadjust" type="button"
+                <button class="carousel-control-next right-adjust" type="button"
                     data-bs-target="#carouselExampleControls" data-bs-slide="next">
                     <span class="position-relative">
                         <img src="./Images/leftbg.png" alt="Image_Background" class="position-absolute">
-                        <img src="./Images/right.png" alt="Right_Arrow" class="position-absolute rightarrow">
+                        <img src="./Images/right.png" alt="Right_Arrow" class="position-absolute right-arrow">
                     </span>
                     <span class="visually-hidden">Next</span>
                 </button>
@@ -66,47 +68,67 @@
             <!-- all image preview 👇 -->
             <div class="allImages mt-3 d-flex justify-content-between ">
                 <div class="">
-                    <img src="./Images/1.jpg" alt="first_image" class=" previewprop p-0 m-0">
+                    <img src="./Images/1.jpg" alt="first_image" class=" preview-prop p-0 m-0">
                 </div>
                 <div class="ms-1">
-                    <img src="./Images/2.jpg" alt="second_image" class=" previewprop p-0 m-0">
+                    <img src="./Images/2.jpg" alt="second_image" class=" preview-prop p-0 m-0">
                 </div>
                 <div class="ms-1">
-                    <img src="./Images/3.jpg" alt="third_image" class=" previewprop p-0 m-0">
+                    <img src="./Images/3.jpg" alt="third_image" class=" preview-prop p-0 m-0">
                 </div>
                 <div class="ms-1">
-                    <img src="./Images/4.jpg" alt="fourth_image" class=" previewprop p-0 m-0">
+                    <img src="./Images/4.jpg" alt="fourth_image" class=" preview-prop p-0 m-0">
                 </div>
                 <div class="ms-1">
-                    <img src="./Images/5.jpg" alt="fifth_image" class=" previewprop p-0 m-0">
+                    <img src="./Images/5.jpg" alt="fifth_image" class=" preview-prop p-0 m-0">
                 </div>
                 <div class="ms-1">
-                    <img src="./Images/6.jpg" alt="sixth_image" class=" previewprop p-0 m-0">
+                    <img src="./Images/6.jpg" alt="sixth_image" class=" preview-prop p-0 m-0">
                 </div>
             </div>
         </div>
-        <div class="col linehere">
+        <div class="col line-here">
             <div class="row mt-4">
                 <h3 class="top_heading font_family text-black">Chupa chups drink</h3>
-                <h6 class="sub_heading font_family">Sold by <a href="#" class="sold_link font_family">Daniel shop</a></h6>
+                <h6 class="sub_heading font_family">Sold by <a href="#" class="sold_link font_family">Daniel shop</a>
+                </h6>
             </div>
             <div class="mt-3">
                 <span class=" actual_price font_family">$ 99.00</span>
                 <span class=" oldPrice ps-1 font_family"><s>$ 199.00</s></span>
             </div>
+            <div class="mt-3">
+                <span class="rating font_family">Rating</span>
+                <span class="rating font_family">4.5</span>
+                <span class="rating font_family">|</span>
+                <span class="rating font_family">5</span>
+                <span class="rating font_family">Reviews</span>
+            </div>
+            <hr>
             <div class="mt-4 mb-2">
                 <p class="quantity mb-2 font_family">Quantity</p>
                 <div class="quantity_calculation p-0 m-0">
-                    <button class="btn minusbtn " onclick="calculate(-1)">-</button>
+                    <button type="button" class="btn minus-btn " onclick="calculate(-1)">-</button>
                     <span id="TotalNumber" class="mx-2 font_family">1</span>
-                    <button class="btn plusbtn" onclick="calculate(1)">+</button>
+                    <button type="button" class="btn plus-btn" onclick="calculate(1)">+</button>
                 </div>
             </div>
             <div class="mt-4">
                 <button type="button" class="btn addCart d-inline"><span class="addCartName font_family">+ Add to
                         cart</span></button>
-                <span class="ms-2"><em class="bi bi-heart icon_adjust"></em></span>
+                <span class="ms-2"><em class="bi bi-heart icon_adjust" id="liked" onclick="toggleLike()"></em></span>
             </div>
+            <hr>
+            <div class="cart-area">
+                <span class="pqt-minus">-</span>
+                <button type="button" class="cart-button">
+                    <span class="add-to-cart">Add to cart</span>
+                    <span class="added"></span>
+                    <i class="fa fa-shopping-cart"></i>
+                </button>
+                <span class="pqt-plus">+</span>
+            </div>
+
             <div class="mt-3">
                 <img class="non_refundable" src="./Images/non_refundable.png" alt="non_refundable">
                 <span class="non_refundable_txt font_family">Non-refundable</span>
@@ -123,26 +145,26 @@
                     <span class="specifications font_family">Specifications</span>
                 </div>
                 <div class="mt-5">
-                    <p class="Product_knowledge font_family">Original cola flavour: Savor the refreshing cola flavor that is
+                    <p class="Product_knowledge font_family">Original cola flavour: Savor the refreshing cola flavor
+                        that is
                         deliciously uplifting.
                         Turn up the energy: Turn up the energy with the delicious and refreshing taste of coca-cola
                         original. <br>
                         Make meals tastier: Meals become tastier with coca-cola original.
-                        Best enjoyed: Coca-cola is best enjoyed ainability.</p>
+                        Best enjoyed: Coca-cola is best enjoyed inability.</p>
                 </div>
             </div>
             <hr>
             <div class="mt-5">
                 <h5 class="ms-5">Frequently bought together </h5>
-                <div class="d-flex " style="width: 700px;">
+                <div class="d-flex w-700">
                     <div class="me-5 d-flex justify-content-center align-items-center cursor">
                         <span class="position-relative ">
                             <img src="./Images/leftbg.png" alt="left_arrow_background" class="position-absolute">
-                            <img src="./Images/left.png" alt="left_arrow_background"
-                                class="position-absolute arrow1 ">
+                            <img src="./Images/left.png" alt="left_arrow_background" class="position-absolute arrow1 ">
                         </span>
                     </div>
-                    <div class="card" style="width: 14rem;">
+                    <div class="card w-14-rem">
                         <div>
                             <img src="./Images/boximg.png" class="card-img-top" alt="box_image">
                             <p class="sale"><span class="font_family">18% off</span></p>
@@ -156,11 +178,13 @@
                                     <p class="my-0 card_current_price font_family">$50.00</p>
                                     <p class="my-0 card_old_price font_family">$160.00</p>
                                 </div>
-                                <button class="btn  border border-1 add_cart py-0 px-0 mt-2 font_family">+ Add to cart</button>
+                                <button type="button" class="btn  border border-1 add_cart py-0 px-0 mt-2 font_family">+
+                                    Add to
+                                    cart</button>
                             </div>
                         </div>
                     </div>
-                    <div class="card ms-2" style="width: 14rem;">
+                    <div class="card ms-2 w-14-rem">
                         <img src="./Images/boximg.png" class="card-img-top" alt="box_image">
                         <p class="sale"><span class="font_family">18% off</span></p>
                         <div class="card-body">
@@ -172,11 +196,13 @@
                                     <p class="my-0 card_current_price font_family">$50.00</p>
                                     <p class="my-0 card_old_price font_family">$160.00</p>
                                 </div>
-                                <button class="btn  border border-1 add_cart py-0 px-0 mt-2 font_family">+ Add to cart</button>
+                                <button type="button" class="btn  border border-1 add_cart py-0 px-0 mt-2 font_family">+
+                                    Add to
+                                    cart</button>
                             </div>
                         </div>
                     </div>
-                    <div class="card ms-2" style="width: 14rem;">
+                    <div class="card ms-2 w-14-rem">
                         <img src="./Images/boximg.png" class="card-img-top" alt="box_image">
                         <p class="sale"><span class="font_family">18% off</span></p>
                         <div class="card-body">
@@ -188,7 +214,9 @@
                                     <p class="my-0 card_current_price font_family">$50.00</p>
                                     <p class="my-0 card_old_price font_family">$160.00</p>
                                 </div>
-                                <button class="btn  border border-1 add_cart py-0 px-0 mt-2 font_family">+ Add to cart</button>
+                                <button type="button" class="btn  border border-1 add_cart py-0 px-0 mt-2 font_family">+
+                                    Add to
+                                    cart</button>
                             </div>
                         </div>
                     </div>
@@ -203,15 +231,14 @@
             <hr>
             <div class="mt-5 mb-5">
                 <h5 class="ms-5">More products from Daniel shop</h5>
-                <div class="d-flex " style="width: 700px;">
+                <div class="d-flex w-700">
                     <div class="me-5 d-flex justify-content-center align-items-center cursor">
                         <span class="position-relative ">
                             <img src="./Images/leftbg.png" alt="left_arrow_background" class="position-absolute">
-                            <img src="./Images/left.png" alt="left_arrow_background"
-                                class="position-absolute arrow1 ">
+                            <img src="./Images/left.png" alt="left_arrow_background" class="position-absolute arrow1 ">
                         </span>
                     </div>
-                    <div class="card" style="width: 14rem;">
+                    <div class="card w-14-rem">
                         <div>
                             <img src="./Images/poultry-1.png" class="card-img-top" alt="box_image">
                             <p class="sale"><span class="font_family">18% off</span></p>
@@ -225,11 +252,13 @@
                                     <p class="my-0 card_current_price font_family">$50.00</p>
                                     <p class="my-0 card_old_price font_family">$160.00</p>
                                 </div>
-                                <button class="btn  border border-1 add_cart py-0 px-0 mt-2 font_family">+ Add to cart</button>
+                                <button type="button" class="btn  border border-1 add_cart py-0 px-0 mt-2 font_family">+
+                                    Add to
+                                    cart</button>
                             </div>
                         </div>
                     </div>
-                    <div class="card ms-2" style="width: 14rem;">
+                    <div class="card ms-2 w-14-rem">
                         <img src="./Images/poultry-2.png" class="card-img-top" alt="box_image">
                         <p class="sale"><span class="font_family">18% off</span></p>
                         <div class="card-body">
@@ -241,11 +270,13 @@
                                     <p class="my-0 card_current_price font_family">$50.00</p>
                                     <p class="my-0 card_old_price font_family">$160.00</p>
                                 </div>
-                                <button class="btn  border border-1 add_cart py-0 px-0 mt-2 font_family">+ Add to cart</button>
+                                <button type="button" class="btn  border border-1 add_cart py-0 px-0 mt-2 font_family">+
+                                    Add to
+                                    cart</button>
                             </div>
                         </div>
                     </div>
-                    <div class="card ms-2" style="width: 14rem;">
+                    <div class="card ms-2 w-14-rem">
                         <img src="./Images/poultry-3.png" class="card-img-top" alt="box_image">
                         <p class="sale"><span class="font_family">18% off</span></p>
                         <div class="card-body">
@@ -257,7 +288,9 @@
                                     <p class="my-0 card_current_price font_family">$50.00</p>
                                     <p class="my-0 card_old_price font_family">$160.00</p>
                                 </div>
-                                <button class="btn  border border-1 add_cart py-0 px-0 mt-2 font_family">+ Add to cart</button>
+                                <button type="button" class="btn  border border-1 add_cart py-0 px-0 mt-2 font_family">+
+                                    Add to
+                                    cart</button>
                             </div>
                         </div>
                     </div>
@@ -271,6 +304,12 @@
             </div>
         </div>
     </div>
+    <script src="./script.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/56fdbf90e3.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
