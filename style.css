@@ -21,7 +21,7 @@
 .slideImgSize {
     width: 474px;
     height: 516px;
-    border-radius: 15px;
+    object-fit: cover;
 }
 
 .preview-prop {
@@ -46,10 +46,6 @@
     padding-top: 8px;
     padding-left: 10px;
 
-}
-
-.allImages {
-    padding-right: 85px;
 }
 
 .line-here {
@@ -196,10 +192,7 @@
 }
 
 hr {
-    position: absolute;
     color: #979797;
-    width: 770px;
-    /* left: 650px; */
 }
 
 
@@ -245,7 +238,6 @@ hr {
 }
 
 div>h5 {
-    /* width: 300px; */
     height: 29px;
     font-family: Palanquin;
     font-style: normal;
@@ -366,6 +358,12 @@ div>h5 {
 
 .w-44 {
     width: 44%;
+}
+
+.img-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .bi-heart-fill {
