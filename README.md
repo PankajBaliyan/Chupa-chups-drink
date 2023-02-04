@@ -6,9 +6,9 @@ The github repository contains a responsive product page that has add-to-cart fu
 
 ## Features
 
- - [Add to cart]()
- - [Images Slideshow]()
- - [Related product suggestions]()
+ - Add to cart
+ - Images Slideshow
+ - Related product suggestions
 
 
 ## Authors
@@ -27,6 +27,8 @@ Please adhere to this project's `code of conduct`.
 
 ## Demo
 
+https://chupa-chups-drink.vercel.app
+<br><br>
 https://pankajkumar90.github.io/Chupa-chups-drink/
 
 
