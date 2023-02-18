@@ -13,7 +13,7 @@ The github repository contains a responsive product page that has add-to-cart fu
 
 ## Authors
 
-- [@pankajkumar90](https://www.github.com/pankajkumar90)
+- [@pankajbaliyan](https://www.github.com/pankajbaliyan)
 
 
 ## Contributing
@@ -29,7 +29,7 @@ Please adhere to this project's `code of conduct`.
 
 https://chupa-chups-drink.vercel.app
 <br><br>
-https://pankajkumar90.github.io/Chupa-chups-drink/
+https://pankajbaliyan.github.io/Chupa-chups-drink/
 
 
 ## Feedback
@@ -50,7 +50,7 @@ I learned many things while makeing this repository, i.e. how make animated "add
 Clone the project
 
 ```bash
-  git clone https://github.com/Pankajkumar90/Chupa-chups-drink.git
+  git clone https://github.com/pankajbaliyan/Chupa-chups-drink.git
 ```
 
 Go to the project directory
