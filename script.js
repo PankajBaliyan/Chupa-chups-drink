@@ -20,7 +20,6 @@ function toggleLike() {
         likedEle.classList.remove('bi-heart-fill');
         likedEle.classList.add('bi-heart');
     }
-    // console.log("hi")
 }
 
 // add to cart
