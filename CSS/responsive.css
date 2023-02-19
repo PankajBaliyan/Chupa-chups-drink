@@ -55,7 +55,7 @@
     }
 
     .w-14-rem {
-        width: 12rem;
+        width: 17rem;
     }
 
     .card-container-small {
@@ -77,6 +77,9 @@
         margin-left: 2rem !important;
     }
 
+    .addCartName {
+        font-size: 15px;
+    }
 
 }
 

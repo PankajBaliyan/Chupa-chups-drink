@@ -114,8 +114,9 @@
 
 .minus-btn {
     background: #F6D72F;
-    border-radius: 5px 0px 0px 5px;
+    border-radius: 0px 5px 5px 0px;
     font-size: 21px;
+    transform: matrix(-1, 0, 0, 1, -1, -1);
 }
 
 #TotalNumber {
@@ -139,7 +140,7 @@
     font-size: 21px;
     background: #F6D72F;
     border-radius: 5px 0px 0px 5px;
-    transform: matrix(-1, 0, 0, 1, 0, 0);
+    transform: matrix(-1, 0, 0, 1, 1, -1);
 }
 
 .addCart {
