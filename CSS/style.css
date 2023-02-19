@@ -141,7 +141,7 @@
     font-size: 21px;
     background: #F6D72F;
     border-radius: 5px 0px 0px 5px;
-    transform: matrix(-1, 0, 0, 1, 1, -1);
+    transform: matrix(-1, 0, 0, 1, 2, -1);
     padding-top: 7px;
 }
 
